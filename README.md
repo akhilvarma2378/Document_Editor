@@ -57,10 +57,10 @@ Note: The frontend will be available at http://localhost:5173. Select a user fro
 
 ## Core Features
 
-Rich Text Editing: Full support for bold, italics, underlines, headers, and bulleted/numbered lists.
+**Rich Text Editing:** Full support for bold, italics, underlines, headers, and bulleted/numbered lists.
 
-Document Sharing: Implements a clear ownership model. Owners can edit and share; users can view and edit documents shared with them.
+**Document Sharing:** Implements a clear ownership model. Owners can edit and share; users can view and edit documents shared with them.
 
-File Import: Users can upload local .txt or .md files to instantly generate new editable documents.
+**File Import:** Users can upload local .txt or .md files to instantly generate new editable documents.
 
-Mock Authentication: Uses a lightweight X-User-Id header approach to allow immediate testing of multi-user flows without a complex login wall.
+**Mock Authentication:** Uses a lightweight X-User-Id header approach to allow immediate testing of multi-user flows without a complex login wall.
