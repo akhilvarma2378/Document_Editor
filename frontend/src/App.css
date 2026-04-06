@@ -1,0 +1,32 @@
+body, html { margin: 0; padding: 0; font-family: sans-serif; height: 100vh; }
+.app-container { display: flex; flex-direction: column; height: 100vh; }
+
+.top-bar {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 0 20px; background: #282c34; color: white; height: 60px;
+}
+.actions { display: flex; gap: 15px; align-items: center; }
+.upload-btn { cursor: pointer; background: #61dafb; color: #000; padding: 5px 10px; border-radius: 4px; font-size: 14px;}
+button, select { padding: 5px 10px; cursor: pointer; }
+
+.main-layout { display: flex; flex: 1; overflow: hidden; }
+
+.sidebar { width: 250px; background: #f4f4f4; border-right: 1px solid #ccc; padding: 10px; overflow-y: auto; }
+.doc-list { list-style: none; padding: 0; margin: 0; }
+.doc-list li {
+  padding: 10px; margin-bottom: 5px; background: white; border: 1px solid #ddd;
+  cursor: pointer; border-radius: 4px; display: flex; justify-content: space-between;
+}
+.doc-list li.active { border-color: #007bff; background: #e9f5ff; }
+.doc-badge { font-size: 0.7em; color: gray; }
+
+.editor-container { flex: 1; display: flex; flex-direction: column; padding: 20px; }
+.editor-empty { flex: 1; display: flex; align-items: center; justify-content: center; color: gray; }
+.editor-header { display: flex; justify-content: space-between; margin-bottom: 15px; }
+.title-input { font-size: 1.5em; border: none; border-bottom: 1px solid #ccc; outline: none; width: 50%; }
+.editor-actions { display: flex; gap: 10px; }
+.share-controls { display: flex; gap: 5px; }
+
+/* React Quill styling to fill space */
+.rich-text { display: flex; flex-direction: column; flex: 1; }
+.ql-container { flex: 1; overflow-y: auto; font-size: 1.1em; }

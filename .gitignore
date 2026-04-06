@@ -1,0 +1,39 @@
+# ========================
+# Node.js / React Frontend
+# ========================
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========================
+# Python / FastAPI Backend
+# ========================
+# Environments
+venv/
+.venv_doc/
+env/
+.env/
+
+# Cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local Database (Optional but recommended)
+# We ignore the DB so you don't commit test data to GitHub.
+# Reviewers will generate their own locally when they run the app.
+doc-editor-backend/app.db
+
+# ========================
+# IDEs and OS Files
+# ========================
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
