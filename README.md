@@ -40,18 +40,16 @@ pip install fastapi[all] sqlalchemy python-multipart pytest httpx
 # Run the server
 uvicorn main:app --reload
 ```
-
-
 Note: The API will be running at http://127.0.0.1:8000. The application automatically creates a local app.db SQLite file and seeds it with two test users: Alice (ID: 1) and Bob (ID: 2).
 
 2. Start the Frontend
 Open a new terminal window and navigate to the frontend directory:
 
-Bash
+```Bash
 cd frontend
-Install the Node modules and start the Vite development server:
 
-Bash
+#Install the Node modules and start the Vite development server
 npm install
 npm run dev
+```
 Note: The frontend will be available at http://localhost:5173. Select a user from the top dropdown to simulate logging in.
